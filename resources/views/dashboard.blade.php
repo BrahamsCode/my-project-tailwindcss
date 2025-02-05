@@ -116,6 +116,59 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Transactions Table  -->
+            <div class="bg-white rounded-lg shadow-sm dark:bg-gray-800">
+                <div class="p-6">
+                    <h3 class="text-base font-semibold text-gray-900 dark:text-white">
+                        Transacciones Recientes
+                    </h3>
+                    <div class="mt-6">
+                        <table class="min-w-full">
+                            <thead>
+                                <tr class="border-b border-gray-200 dark:border-gray-700">
+                                    <th scope="col" class="pb-3.5 text-left text-sm font-normal text-gray-500 dark:text-gray-400">
+                                        ID
+                                    </th>
+                                    <th scope="col" class="pb-3.5 text-left text-sm font-normal text-gray-500 dark:text-gray-400">
+                                        CLIENTE
+                                    </th>
+                                    <th scope="col" class="pb-3.5 text-left text-sm font-normal text-gray-500 dark:text-gray-400">
+                                        MONTO
+                                    </th>
+                                    <th scope="col" class="pb-3.5 text-left text-sm font-normal text-gray-500 dark:text-gray-400">
+                                        ESTADO
+                                    </th>
+                                    <th scope="col" class="pb-3.5 text-left text-sm font-normal text-gray-500 dark:text-gray-400">
+                                        FECHA
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100 dark:divide-gray-700">
+                                <tr>
+                                    <td class="py-4 text-sm font-medium text-gray-900 dark:text-white">
+                                        #1234
+                                    </td>
+                                    <td class="py-4 text-sm text-gray-500 dark:text-gray-400">
+                                        Juan Pérez
+                                    </td>
+                                    <td class="py-4 text-sm text-gray-500 dark:text-gray-400">
+                                        $100.00
+                                    </td>
+                                    <td class="py-4">
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-800 dark:text-green-100">
+                                            Completado
+                                        </span>
+                                    </td>
+                                    <td class="py-4 text-sm text-gray-500 dark:text-gray-400">
+                                        2024-02-05
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
